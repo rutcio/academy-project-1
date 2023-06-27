@@ -253,7 +253,25 @@
             </section>
 
             <section class="section">
-                <div class="form__content">
+                <div class="section__form">
+                    <form method="post">
+                        <div class="section__form-text">
+                            <p>Welcome</p>
+                            <p>Let's create your account!</p>
+                        </div>
+                        
+                        <div class="section__form_input">
+                            <input class="section__form_input-item" type="text" name="name" id="name" placeholder="First name" required>
+                            <input class="section__form_input-item" type="text" name="surname" id="surname" placeholder="Last name" required>
+                            <input class="section__form_input-item" type="email" name="email" id="email" placeholder="Email" required>
+                        </div>
+
+                        <button type="submit" class="section__form-btn btn__add">Submit</button>
+                    </form>
+                </div>
+
+
+                <!-- <div class="form__content">
                     <form method="POST" class="form">
                         <h2 class="form__title">
                             Welcome <br> Let's create your account!
@@ -273,7 +291,7 @@
 
                         <button type="submit" class="form__button btn__add">Submit</button>
                     </form>
-                </div>
+                </div> -->
             </section>
         </main>
 
@@ -281,15 +299,15 @@
             <div class="navbar__title">
                 Lorem ipsum dolor sit amet consectetur adipisicing.
             </div>
-            <nav class="navbar">
+            <nav class="navbar footer_navbar">
                 <div class="navbar__navigation">
                     <ul class="navbar__list">
-                        <li class="navbar__item"><a href="#" class="navbar__link">Link 1</a></li>
-                        <li class="navbar__item"><a href="#" class="navbar__link">Link 2</a></li>
-                        <li class="navbar__item"><a href="#" class="navbar__link">Link 3</a></li>
-                        <li class="navbar__item"><a href="#" class="navbar__link">Link 4</a></li>
-                        <li class="navbar__item"><a href="#" class="navbar__link">Link 5</a></li>
-                        <li class="navbar__item"><a href="#" class="navbar__link">Link 6</a></li>
+                        <li class="navbar__list-item"><a href="#" class="navbar__list-link">Link 1</a></li>
+                        <li class="navbar__list-item"><a href="#" class="navbar__list-link">Link 2</a></li>
+                        <li class="navbar__list-item"><a href="#" class="navbar__list-link">Link 3</a></li>
+                        <li class="navbar__list-item"><a href="#" class="navbar__list-link">Link 4</a></li>
+                        <li class="navbar__list-item"><a href="#" class="navbar__list-link">Link 5</a></li>
+                        <li class="navbar__list-item"><a href="#" class="navbar__list-link">Link 6</a></li>
                     </ul>
                 </div>
             </nav>

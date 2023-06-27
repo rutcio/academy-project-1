@@ -1,0 +1,14 @@
+.footer {
+    &_navbar {
+        justify-content: center;
+
+    }
+
+    &__copyrights {
+        font-size: 14px;
+        font-weight: 400;
+
+        background-color: $color-green_dark;
+        color: $color-white;
+    }
+}
