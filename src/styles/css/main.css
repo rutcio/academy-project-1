@@ -89,7 +89,7 @@ table {
 }
 
 .section {
-  width: 85%;
+  width: 80%;
   margin: 2rem auto;
   text-align: center;
 }
@@ -168,4 +168,89 @@ table {
   padding: 4rem;
   margin: 0 auto;
   border-radius: 1rem;
+}
+
+.section__products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 1rem auto;
+}
+.section__products-img {
+  width: 20%;
+  height: 20%;
+  margin: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.section__cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem auto;
+}
+.section__cards_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 1rem;
+  padding: 1rem;
+  color: #ff416f;
+  background-color: #E8E2E2;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.section__cards_item-img {
+  width: 100px;
+  height: 100px;
+  margin: 1rem;
+  border-radius: 50%;
+}
+.section__cards_item-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.section__cards_item-text {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.contacts {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/paperMaps.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
+
+.section__contacts {
+  padding: 10rem 5rem;
+}
+.section__contacts-text {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 0.5;
+  color: #ffffff;
+}
+.section__contacts-text--title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 3rem;
+  color: #ffffff;
+}
+.section__contacts-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.section__contacts-link:hover {
+  color: #cf316e;
 }/*# sourceMappingURL=main.css.map */

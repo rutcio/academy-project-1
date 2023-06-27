@@ -1,0 +1,21 @@
+.section__products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 80%;
+
+    margin: 1rem auto;
+
+    &-img {
+        width: 20%;
+        height: 20%;
+
+        margin: 1rem;
+
+        border-radius: 1rem;
+
+        cursor: pointer;
+    }
+}

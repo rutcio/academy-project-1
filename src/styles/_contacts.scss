@@ -1,0 +1,43 @@
+.contacts {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url(../../images/paperMaps.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 1rem;
+}
+
+.section__contacts {
+    padding: 10rem 5rem;
+
+    &-text {
+        padding: 0 20px;
+        margin-bottom: 20px;
+
+        font-size: 20px;
+        font-weight: 400;
+
+        line-height: 0.5;
+
+        color: $color-white;
+
+        &--title {
+            font-weight: 700;
+            font-size: 30px;
+            margin-bottom: 3rem;
+
+            color: $color-white;
+        }
+    }
+
+    &-link {
+        color: $color-white;
+        text-decoration: none;
+        
+        &:hover {
+            color: $color-link_hover;
+        }
+    }
+}
