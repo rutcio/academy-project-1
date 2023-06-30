@@ -6,12 +6,13 @@
     margin: 1rem auto;
 
     &_item {
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        width: 30%;
+        width: calc(100% / 4);
 
         margin: 1rem;
         padding: 1rem;

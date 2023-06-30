@@ -5,7 +5,7 @@
 
     padding: 1rem 0.5rem;
 
-    background-color: $color-green_dark;
+    background-color: $color-green_darken;
 
     &__logo {
         margin-left: 20px;
@@ -46,7 +46,7 @@
         
         font-size: 20px;
 
-        color: black;
-        background-color: $color-white;
+        color: $color-white;
+        background-color: $color-link_hover;
     }
 }
